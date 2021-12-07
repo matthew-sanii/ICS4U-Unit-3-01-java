@@ -1,4 +1,13 @@
-class Stack {
+/**
+* This is the stack program.
+*/
+final class Stack {
+
+    /**
+    * The starting main() function.
+    *
+    * @param args Name of file containing a string of numbers
+    */
   public static void main(final String[] args) {
     final int min = 1;
     final int max = 10;
