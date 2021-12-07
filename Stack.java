@@ -1,7 +1,16 @@
-/**
-* This is the stack program.
-*/
-final class Stack {
+class Stack {
+
+  /**
+  * Prevent instantiation
+  * Throw an exception IllegalStateException.
+  * if this ever is called
+  *
+  * @throws IllegalStateException
+  *
+  */
+  private Stack() {
+    throw new IllegalStateException("Cannot be initated.");
+  }
 
     /**
     * The starting main() function.
