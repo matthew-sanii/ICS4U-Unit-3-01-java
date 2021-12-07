@@ -1,4 +1,4 @@
-final class Main {
+private class Main {
   public static void main(final String[] args) {
     final int min = 1;
     final int max = 10;
