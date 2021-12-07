@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public final class MrCoxallStack {
+public class MrCoxallStack {
   /**
   * The arrayList creator called theStack.
   */
