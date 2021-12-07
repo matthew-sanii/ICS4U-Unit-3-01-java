@@ -6,9 +6,10 @@ class Main {
     MrCoxallStack newStack = new MrCoxallStack();
     while (times >= 0) {
       final int randomizer = (int) Math.floor(Math.random() * (max - min + 1) + min);
-      newStack.Push(randomizer);
+      newStack.push(randomizer);
+      newStack.showStack();
       times -= 1;
     }
-    newStack.ShowStack();
+    newStack.showStack();
   }
 }

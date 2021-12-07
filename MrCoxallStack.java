@@ -1,14 +1,18 @@
 import java.util.ArrayList;
 
 public class MrCoxallStack {
-    ArrayList<Integer> theStack = new ArrayList<Integer>();
+  private ArrayList<Integer> theStack = new ArrayList<Integer>();
 
-    public void Push(final int newValue) {
-        theStack.add(newValue);
+  public void push(final int pushValue) {
+    System.out.println("adding " + pushValue + " to stack.");
+    theStack.add(pushValue);
+  }
+
+  public void showStack() {
+    System.out.println("The stacklist.");
+    for (Integer aSingleElement : theStack) {
+      System.out.println(aSingleElement);
     }
-
-    public void ShowStack() {
-        System.out.println(theStack);
-    }
-
+    System.out.println("End of stacklist. \n");
+  }
 }
