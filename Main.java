@@ -3,6 +3,7 @@ class Main {
     final int min = 1;
     final int max = 10;
     int times = 10;
+    // use MrCoxallStack class
     MrCoxallStack newStack = new MrCoxallStack();
     while (times >= 0) {
       final int randomizer = (int) Math.floor(Math.random() * (max - min + 1) + min);
