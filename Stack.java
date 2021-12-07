@@ -1,4 +1,4 @@
-class Stack {
+final class Stack {
 
   /**
   * Prevent instantiation
